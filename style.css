@@ -50,6 +50,9 @@ body{
     padding: 0 10%;
 }
 
+
+/*index.html */
+
 .home-content {
     max-width: 700px;
 }
@@ -179,4 +182,23 @@ body{
     height: 100%;
     background: #e8e0de;
     transition: .8s;
+}
+
+
+
+/* Contact.html */
+
+#e-form {
+    
+    position: relative;
+    left: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#name
+#email
+#subjct{
+    height: 304px; 
+    width: 675px;
 }
