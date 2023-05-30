@@ -188,7 +188,12 @@ body{
 
 /* Contact.html */
 
-.fcf-form-id{
+.fcf-body{
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
 
     input[type=text], select, textarea {
     width: 100%;
