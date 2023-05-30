@@ -26,17 +26,27 @@
     </header>
     <section class="home">
         <div id="e-form">
-          <form action="mailto:woraphong.mingsong@yahoo.com" method="POST" enctype="text/plain" name="EmailForm">
-            
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your first and last name...">
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your E-Mail address..">
-            <label for="subjet">Message</label>
-            <textarea id="subjet" name="subjet" placeholder="Please, write yoru message here...">
-             </textarea>
-            <input type="submit" value="Submit">
+
+          <h3>Contact Me </h3>
+          <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                  <label for="Name" class="fcf-label">Your name</label>
+                  <div class="fcf-input-group">
+                      <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                  </div>
+              <div class="fcf-form-group">
+                  <label for="Email" class="fcf-label">Your email address</label>
+                  <div class="fcf-input-group">
+                      <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                  </div>
+              <div class="fcf-form-group">
+                  <label for="Message" class="fcf-label">Your message</label>
+                  <div class="fcf-input-group">
+                      <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                  </div>
+              </div>
+              <div class="fcf-form-group">
+                  <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+              </div>
 
           </form>
             
