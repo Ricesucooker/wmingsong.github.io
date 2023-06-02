@@ -32,15 +32,17 @@
             <form action="https://api.web3forms.com/submit" method="POST">
             <!-- Please Replace the Vaul with your access key from https://web3forms.com/ its free -->
                 <input type="hidden" name="access_key" value="116dbc03-2f12-4d6a-9e77-39276dc0bf56">
-                <li>Full Name</li>
+                <input type="hidden" name="subjet" value=" Contact from Website">
+                <list>Full Name</list>
                 <input type="text" placeholder="Full Name" name="name" required>
-                <li>E-Mail</li>
+                <list>E-Mail</list>
                 <input type="email" placeholder="E-Mail" name="email" required>
-                <li>Message</li>
+                <list>Message</list>
                 <textarea placeholder="Message.." name="message" required></textarea>
 
                 <div class="h-captcha" data-captcha="true"></div>
                 <button type="submit">Submit Form</button>
+                <input type="hidden" name="redirect" value="./index.html">
             
             </form>
             
