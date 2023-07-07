@@ -3,4 +3,4 @@ My website portfolio
 
 Personal website 
 
-Hosted on github
+will be hosted on s3 
