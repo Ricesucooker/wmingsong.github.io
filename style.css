@@ -188,29 +188,23 @@ body{
 
 /* Contact.html */
 
-#e-form{
+.e-form{
+    content: '';
+    position: relative;
+    align-content: center;
+}
 
-    font-size: 1rem;
-    font-weight: 400;
-    color: #000000;
-    text-align: left;
-
-    input[type=text], select, textarea {
+input[type = text] {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+textarea{
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #5DADE2;
-    color: white;
+    height: 150px;
     padding: 12px 20px;
-    border: none;
+    box-sizing: border-box;
     border-radius: 4px;
-  }
+    resize: none;
 }
